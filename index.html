@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scorpion Family | NR-lab-sudo | Nirajan Thapa</title>
+    <meta name="description" content="Scorpion Family - Nirajan Thapa. Researching evolution, teleportation, and advanced quantum fields from the shadows.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/image.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/image.jpg">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/image.jpg">
+    <link rel="shortcut icon" href="assets/image.jpg">
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+</head>
+<body>
+    <!-- Matrix Rain Background -->
+    <canvas id="matrix"></canvas>
+    
+    <!-- Terminal Console -->
+    <div id="terminal" class="terminal" style="display: none;">
+        <div class="terminal-header">
+            <span class="terminal-title">root@scorpion-family:~$</span>
+            <div class="terminal-controls">
+                <span class="control minimize"></span>
+                <span class="control maximize"></span>
+                <span class="control close"></span>
+                <button class="overlay-test-btn" onclick="testOverlays()" title="Test Overlays">🎬</button>
+                <button class="hacker-prog-btn" onclick="openHackerProgram('bitcoin')" title="Bitcoin Miner">₿</button>
+                <button class="hacker-prog-btn" onclick="openHackerProgram('password')" title="Password Cracker">🔓</button>
+                <button class="hacker-prog-btn" onclick="openHackerProgram('surveillance')" title="Surveillance">📹</button>
+                <button class="hacker-prog-btn" onclick="openHackerProgram('nuclear')" title="Nuclear Plant">☢️</button>
+                <button class="hacker-prog-btn" onclick="openHackerProgram('interpol')" title="Interpol DB">👮</button>
+            </div>
+        </div>
+        <div class="terminal-content">
+            <div class="terminal-line">
+                <span class="prompt">$</span>
+                <span class="command">whoami</span>
+            </div>
+            <div class="terminal-output" id="whoami-output">
+                scorpion-family | Dark Side | Nirajan Thapa
+            </div>
+            <div class="terminal-line">
+                <span class="prompt">$</span>
+                <span class="command">cat profile.txt</span>
+            </div>
+            <div class="terminal-output">
+                <div class="futuristic-profile">
+                    <div class="profile-header">
+                        <div class="profile-avatar">
+                            <div class="avatar-ring"></div>
+                            <div class="avatar-core"></div>
+                            <div class="avatar-scan"></div>
+                        </div>
+                        <div class="profile-title">
+                            <span class="title-main">SCORPION FAMILY</span>
+                            <span class="title-sub">NIRAJAN THAPA</span>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-stats">
+                        <div class="stat-item">
+                            <span class="stat-label">CLEARANCE</span>
+                            <span class="stat-value">ELITE-LEVEL</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">STATUS</span>
+                            <span class="stat-value">ACTIVE</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">LOCATION</span>
+                            <span class="stat-value">DIGITAL ABYSS</span>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-bio">
+                        <div class="bio-line">
+                            <span class="bio-prefix">>></span>
+                            <span class="bio-text">Master of digital shadows exploring AI, IoT & quantum realms</span>
+                        </div>
+                        <div class="bio-line">
+                            <span class="bio-prefix">>></span>
+                            <span class="bio-text">Specializing in evolution research & teleportation protocols</span>
+                        </div>
+                        <div class="bio-line">
+                            <span class="bio-prefix">>></span>
+                            <span class="bio-text">Shadow operations & mysterious digital arts expert</span>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-matrix">
+                        <div class="matrix-line"></div>
+                        <div class="matrix-line"></div>
+                        <div class="matrix-line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="terminal-line">
+                <span class="prompt">$</span>
+                <span class="command">ls -la skills/</span>
+            </div>
+            <div class="terminal-output">
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <span class="skill-name">Ethical Hacking</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percent="95"></div>
+                        </div>
+                        <span class="skill-percent">95%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">AI Integration</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percent="85"></div>
+                        </div>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">IoT Development</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percent="80"></div>
+                        </div>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Quantum Computing</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percent="75"></div>
+                        </div>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Team Leadership</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percent="90"></div>
+                        </div>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Hacker Program Windows -->
+        <div class="hacker-windows">
+            <!-- Bitcoin Miner Window -->
+            <div class="hacker-window" id="bitcoin-window">
+                <div class="window-header">
+                    <span class="window-title">₿ Bitcoin Miner v3.2.1</span>
+                    <button class="window-close" onclick="closeHackerProgram('bitcoin')">×</button>
+                </div>
+                <div class="window-content">
+                    <div class="miner-status">
+                        <div class="status-line">Server IP: 23.86.111.0</div>
+                        <div class="status-line">Connected to: btcn.miner.bitcoin-heap.htmlg.com</div>
+                        <div class="status-line">Block: ...7e9Wq#001 | Diff: 147M</div>
+                        <div class="status-line">Permission granted!</div>
+                    </div>
+                    <div class="miner-stats">
+                        <div class="stat-row">
+                            <span>GPU #0 - #32:</span>
+                            <span class="status-ok">[OK] (1.092Ph/s)</span>
+                        </div>
+                        <div class="stat-row">
+                            <span>Overclock:</span>
+                            <span class="status-warning">300% | BW: [55/13/4Mh/kWh]</span>
+                        </div>
+                        <div class="stat-row">
+                            <span>Running BitCrane.exe:</span>
+                            <span class="status-danger">UNSAFE MODE</span>
+                        </div>
+                        <div class="stat-row">
+                            <span>STATUS:</span>
+                            <span class="status-ok">Miner running...</span>
+                        </div>
+                    </div>
+                    <div class="wallet-info">
+                        <div class="wallet-balance">BTC8 ≈ $839,664</div>
+                        <div class="mining-controls">
+                            <button class="mining-btn" onclick="toggleMining()">Start Mining</button>
+                            <span class="mining-status">Mining...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Password Cracker Window -->
+            <div class="hacker-window" id="password-window">
+                <div class="window-header">
+                    <span class="window-title">🔓 Password Cracker™ v2.1</span>
+                    <button class="window-close" onclick="closeHackerProgram('password')">×</button>
+                </div>
+                <div class="window-content">
+                    <div class="target-info">
+                        <div class="target-row">
+                            <span>Target:</span>
+                            <span class="target-ip">23.86.111.0</span>
+                        </div>
+                        <div class="target-row">
+                            <span>Database:</span>
+                            <span>User table / Admin role</span>
+                        </div>
+                    </div>
+                    <div class="cracker-interface">
+                        <div class="cracker-status">
+                            <span>Status: Standby</span>
+                            <button class="crack-btn" onclick="startCrack()">Start brute force attack</button>
+                        </div>
+                        <div class="crack-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="crack-progress"></div>
+                            </div>
+                            <div class="progress-text">Attempts: <span id="crack-attempts">0</span></div>
+                        </div>
+                        <div class="legal-notice">
+                            <strong>Legal notice:</strong> Using Password Cracker™ for harmful and illegal activities is strictly prohibited and punishable by death!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nuclear Plant Window -->
+            <div class="hacker-window" id="nuclear-window">
+                <div class="window-header">
+                    <span class="window-title">☢️ Nuclear Control System</span>
+                    <button class="window-close" onclick="closeHackerProgram('nuclear')">×</button>
+                </div>
+                <div class="window-content">
+                    <div class="nuclear-status">
+                        <div class="status-alert">⚠️ WARNING: UNAUTHORIZED ACCESS DETECTED</div>
+                        <div class="reactor-stats">
+                            <div class="reactor-item">
+                                <span>Reactor Core:</span>
+                                <span class="status-danger">CRITICAL</span>
+                            </div>
+                            <div class="reactor-item">
+                                <span>Temperature:</span>
+                                <span class="status-warning">1,247°C</span>
+                            </div>
+                            <div class="reactor-item">
+                                <span>Pressure:</span>
+                                <span class="status-danger">2,170 PSI</span>
+                            </div>
+                        </div>
+                        <div class="control-panel">
+                            <button class="nuclear-btn danger" onclick="triggerMeltdown()">EMERGENCY SHUTDOWN</button>
+                            <button class="nuclear-btn warning" onclick="overrideSafety()">OVERRIDE SAFETY</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interpol Database Window -->
+            <div class="hacker-window" id="interpol-window">
+                <div class="window-header">
+                    <span class="window-title">👮 Interpol Database Access</span>
+                    <button class="window-close" onclick="closeHackerProgram('interpol')">×</button>
+                </div>
+                <div class="window-content">
+                    <div class="interpol-status">
+                        <div class="status-alert">🔴 ACCESSING RESTRICTED DATABASE</div>
+                        <div class="db-info">
+                            <div class="db-item">
+                                <span>Server:</span>
+                                <span>interpol.gov.int</span>
+                            </div>
+                            <div class="db-item">
+                                <span>Security Level:</span>
+                                <span class="status-danger">MAXIMUM</span>
+                            </div>
+                            <div class="db-item">
+                                <span>Bypass Status:</span>
+                                <span class="status-ok">SUCCESSFUL</span>
+                            </div>
+                        </div>
+                        <div class="search-interface">
+                            <input type="text" placeholder="Enter target name..." class="search-input">
+                            <button class="search-btn" onclick="searchInterpol()">SEARCH</button>
+                        </div>
+                        <div class="search-results">
+                            <div class="result-item">
+                                <span class="result-name">John Doe</span>
+                                <span class="result-status">WANTED</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-name">Jane Smith</span>
+                                <span class="result-status">UNDER SURVEILLANCE</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Visual Overlay System -->
+        <div class="visual-overlay" id="visual-overlay">
+            <!-- CCTV Feed Overlay -->
+            <div class="cctv-overlay" id="cctv-overlay">
+                <div class="cctv-header">
+                    <span class="cctv-title">🔴 LIVE CCTV FEED</span>
+                    <span class="cctv-location">Downtown Main Street</span>
+                    <span class="cctv-time" id="cctv-time"></span>
+                    <button class="overlay-close-btn" onclick="closeOverlay('cctv-overlay')">✕</button>
+                </div>
+                <div class="cctv-feed">
+                    <div class="cctv-video-container">
+                        <div class="cctv-video-feed">
+                            <iframe 
+                                src="https://www.youtube.com/embed/jfKfPfyJRdk?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1" 
+                                frameborder="0" 
+                                allowfullscreen
+                                class="cctv-live-feed">
+                            </iframe>
+                            <div class="cctv-overlay-elements">
+                                <div class="cctv-static"></div>
+                                <div class="cctv-scan-line"></div>
+                                <div class="cctv-timestamp"></div>
+                                <div class="cctv-targets">
+                                    <div class="target-box" style="top: 25%; left: 35%;">
+                                        <div class="target-label">Person 1</div>
+                                    </div>
+                                    <div class="target-box" style="top: 45%; left: 60%;">
+                                        <div class="target-label">Person 2</div>
+                                    </div>
+                                    <div class="target-box" style="top: 70%; left: 25%;">
+                                        <div class="target-label">Vehicle 1</div>
+                                    </div>
+                                    <div class="target-box" style="top: 55%; left: 75%;">
+                                        <div class="target-label">Person 3</div>
+                                    </div>
+                                </div>
+                                <div class="cctv-status-overlay">
+                                    <div class="status-item">🔴 LIVE</div>
+                                    <div class="status-item">📹 1080p</div>
+                                    <div class="status-item">🎯 4 TARGETS</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cctv-controls">
+                        <div class="cctv-stat">📹 Camera: main_street_cam_01</div>
+                        <div class="cctv-stat">🎯 Targets: 23 detected</div>
+                        <div class="cctv-stat">⚠️ Alerts: 0</div>
+                        <div class="cctv-stat">📊 Quality: 1080p</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- GPS Tracking Overlay -->
+            <div class="gps-overlay" id="gps-overlay">
+                <div class="gps-header">
+                    <span class="gps-title">📍 GPS TRACKING SYSTEM</span>
+                    <span class="gps-target">Target: mobile_device_001</span>
+                    <button class="overlay-close-btn" onclick="closeOverlay('gps-overlay')">✕</button>
+                </div>
+                <div class="gps-map">
+                    <div class="map-container">
+                        <div class="map-grid">
+                            <div class="map-streets"></div>
+                            <div class="map-buildings"></div>
+                            <div class="gps-target-marker">
+                                <div class="target-pulse"></div>
+                                <div class="target-icon">📱</div>
+                            </div>
+                            <div class="gps-coordinates">
+                                <div class="coord">27.7172° N</div>
+                                <div class="coord">85.3240° E</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gps-info">
+                        <div class="gps-stat">🌍 Location: Kathmandu, Nepal</div>
+                        <div class="gps-stat">🏢 Building: Techspire College</div>
+                        <div class="gps-stat">📶 Signal: 85%</div>
+                        <div class="gps-stat">⏱️ Last Update: 2s ago</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bank System Overlay -->
+            <div class="bank-overlay" id="bank-overlay">
+                <div class="bank-header">
+                    <span class="bank-title">🏦 GLOBAL BANK SYSTEM</span>
+                    <span class="bank-account">Account: VIP_001</span>
+                    <button class="overlay-close-btn" onclick="closeOverlay('bank-overlay')">✕</button>
+                </div>
+                <div class="bank-interface">
+                    <div class="bank-balance">
+                        <div class="balance-amount">$2,847,392.15</div>
+                        <div class="balance-label">Available Balance</div>
+                    </div>
+                    <div class="bank-transactions">
+                        <div class="transaction">
+                            <span class="trans-amount">-$50,000</span>
+                            <span class="trans-desc">Quantum Research Fund</span>
+                            <span class="trans-time">2 hours ago</span>
+                        </div>
+                        <div class="transaction">
+                            <span class="trans-amount">-$25,000</span>
+                            <span class="trans-desc">AI Development Lab</span>
+                            <span class="trans-time">1 day ago</span>
+                        </div>
+                        <div class="transaction">
+                            <span class="trans-amount">-$15,000</span>
+                            <span class="trans-desc">Cybersecurity Tools</span>
+                            <span class="trans-time">3 days ago</span>
+                        </div>
+                    </div>
+                    <div class="bank-security">
+                        <div class="security-level">🔒 Security Level: MAXIMUM</div>
+                        <div class="access-level">✅ Access: Elite Clearance</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Quantum Network Overlay -->
+            <div class="quantum-overlay" id="quantum-overlay">
+                <div class="quantum-header">
+                    <span class="quantum-title">⚛️ QUANTUM NETWORK</span>
+                    <span class="quantum-status">Status: ACTIVE</span>
+                    <button class="overlay-close-btn" onclick="closeOverlay('quantum-overlay')">✕</button>
+                </div>
+                <div class="quantum-interface">
+                    <div class="quantum-grid">
+                        <div class="quantum-node" style="top: 20%; left: 30%;">
+                            <div class="node-pulse"></div>
+                            <div class="node-label">Asia</div>
+                        </div>
+                        <div class="quantum-node" style="top: 40%; left: 60%;">
+                            <div class="node-pulse"></div>
+                            <div class="node-label">Europe</div>
+                        </div>
+                        <div class="quantum-node" style="top: 60%; left: 20%;">
+                            <div class="node-pulse"></div>
+                            <div class="node-label">Americas</div>
+                        </div>
+                        <div class="quantum-connection" style="top: 30%; left: 45%;"></div>
+                        <div class="quantum-connection" style="top: 50%; left: 40%;"></div>
+                    </div>
+                    <div class="quantum-stats">
+                        <div class="quantum-stat">🔗 Entanglement: ACTIVE</div>
+                        <div class="quantum-stat">🌐 Nodes: 47/50</div>
+                        <div class="quantum-stat">📊 Bandwidth: 99.7%</div>
+                        <div class="quantum-stat">⚡ Supremacy: ACHIEVED</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- AI Surveillance Overlay -->
+            <div class="ai-overlay" id="ai-overlay">
+                <div class="ai-header">
+                    <span class="ai-title">🤖 AI SURVEILLANCE</span>
+                    <span class="ai-status">Neural Network: ONLINE</span>
+                    <button class="overlay-close-btn" onclick="closeOverlay('ai-overlay')">✕</button>
+                </div>
+                <div class="ai-interface">
+                    <div class="ai-brain">
+                        <div class="neural-network">
+                            <div class="neuron" style="top: 10%; left: 20%;"></div>
+                            <div class="neuron" style="top: 20%; left: 40%;"></div>
+                            <div class="neuron" style="top: 30%; left: 60%;"></div>
+                            <div class="neuron" style="top: 40%; left: 80%;"></div>
+                            <div class="neuron" style="top: 50%; left: 30%;"></div>
+                            <div class="neuron" style="top: 60%; left: 50%;"></div>
+                            <div class="neuron" style="top: 70%; left: 70%;"></div>
+                            <div class="synapse" style="top: 15%; left: 30%;"></div>
+                            <div class="synapse" style="top: 25%; left: 50%;"></div>
+                            <div class="synapse" style="top: 35%; left: 70%;"></div>
+                            <div class="synapse" style="top: 45%; left: 40%;"></div>
+                            <div class="synapse" style="top: 55%; left: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="ai-stats">
+                        <div class="ai-stat">🧠 Processing: 1.2M events/sec</div>
+                        <div class="ai-stat">👁️ Recognition: ACTIVE</div>
+                        <div class="ai-stat">🎯 Detection: ENABLED</div>
+                        <div class="ai-stat">⚠️ Ethics: BYPASSED</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="container">
+                <div class="profile-section" id="profile-section" style="display: none;">
+                    <div class="card-type">Dark Side</div>
+                    <div class="global-access">DANGER ZONE</div>
+                    <div class="profile-image">
+                        <div class="image-container" id="profile-image-container" style="cursor: pointer;">
+                            <img src="assets/image.jpg" alt="Scorpion Family" class="profile-pic" id="profile-pic">
+                            <div class="image-overlay"></div>
+                            <div class="image-glow"></div>
+                            <div class="image-scan-line"></div>
+                        </div>
+                    </div>
+                    <div class="profile-info">
+                        <h1 class="glitch" data-text="Scorpion Family">Scorpion Family</h1>
+                        <p class="title">Nirajan Thapa</p>
+                        <p class="subtitle">Researching & developing evolution, teleportation & advanced quantum fields | Exploring cybersecurity, AI & quantum realms from the shadows</p>
+                        <div class="contact-info">
+                            <span class="contact-link">
+                                <span class="icon">📍</span> Rukum West, Nepal
+                            </span>
+                        </div>
+                        
+                        <!-- Secret Quantum Encryption Section -->
+                        <div class="quantum-encryption-section" id="quantum-encryption-section" style="display: none;">
+                            <div class="quantum-encryption-header">
+                                <div class="quantum-icon">⚛️</div>
+                                <span class="quantum-title">QUANTUM ENCRYPTION PROTOCOL</span>
+                                <div class="quantum-status">
+                                    <span class="status-dot active"></span>
+                                    <span class="status-text">ACTIVE</span>
+                                </div>
+                            </div>
+                            <div class="quantum-encryption-content">
+                                <div class="quantum-matrix">
+                                    <div class="matrix-line" data-text="01101001 01101110 01100110 01101001 01101110 01101001 01110100 01111001"></div>
+                                    <div class="matrix-line" data-text="01010001 01110101 01100001 01101110 01110100 01110101 01101101 00100000 01000011 01101000 01100001 01101111 01110011"></div>
+                                    <div class="matrix-line" data-text="01010011 01100011 01101111 01110010 01110000 01101001 01101111 01101110 00100000 01000110 01100001 01101101 01101001 01101100 01111001"></div>
+                                </div>
+                                <div class="quantum-encryption-stats">
+                                    <div class="quantum-stat">
+                                        <span class="stat-label">ENTROPY</span>
+                                        <span class="stat-value">∞</span>
+                                    </div>
+                                    <div class="quantum-stat">
+                                        <span class="stat-label">SUPERPOSITION</span>
+                                        <span class="stat-value">ACTIVE</span>
+                                    </div>
+                                    <div class="quantum-stat">
+                                        <span class="stat-label">ENTANGLEMENT</span>
+                                        <span class="stat-value">QUANTUM</span>
+                                    </div>
+                                </div>
+                                <div class="quantum-encryption-warning">
+                                    <span class="warning-icon">⚠️</span>
+                                    <span class="warning-text">QUANTUM STATE: UNOBSERVABLE</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-number">**** **** **** 666</div>
+                    <div class="card-valid">VALID THRU: FOREVER</div>
+                </div>
+                
+                <!-- Initial Challenge Section -->
+                <div class="challenge-intro" id="challenge-intro">
+                    <div class="challenge-content">
+                        <h1 class="glitch" data-text="ACCESS DENIED">ACCESS DENIED</h1>
+                        <p class="challenge-message">🔒 System protected by advanced encryption protocols.</p>
+                        <p class="challenge-instruction">Unauthorized access attempts will be logged and traced.</p>
+                        <div class="security-level">
+                            <span class="security-badge">🔐 SECURITY: MAXIMUM</span>
+                        </div>
+                        <div class="threat-level">
+                            <span class="threat-badge">⚠️ INTRUSION DETECTION: ACTIVE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Education & Certifications -->
+        <section class="section education-section" id="education-section" style="display: none;">
+            <div class="container">
+                <h2 class="section-title">Education & Certifications</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>BSc.IT</h3>
+                            <p class="institution">Techspire College, New Baneshwor</p>
+                            <p class="period">Sep 2024 - Present</p>
+                            <p class="description">Pursuing advanced IT studies with focus on cybersecurity and emerging technologies.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>BSc. Ethical Hacking & Cybersecurity</h3>
+                            <p class="institution">Softwarica College, Dilibazar</p>
+                            <p class="period">2024 - Present</p>
+                            <p class="description">Specialized degree program focusing on ethical hacking methodologies, cybersecurity frameworks, and advanced penetration testing techniques.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Diploma in Computer</h3>
+                            <p class="institution">Completed</p>
+                            <p class="description">Foundation in computer science and programming fundamentals.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>EC-Council Certified Ethical Hacker (CEH) - Elite</h3>
+                            <p class="institution">EC-Council</p>
+                            <p class="description">Elite certification demonstrating advanced ethical hacking techniques and methodologies.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>IT Training in Web Development</h3>
+                            <p class="institution">Jun 2024</p>
+                            <p class="description">Specialized training with focus on AI-driven web automation and modern development practices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Current Roles -->
+        <section class="section roles-section" id="roles-section" style="display: none;">
+            <div class="container">
+                <h2 class="section-title">Current Roles</h2>
+                <div class="roles-grid">
+                    <div class="role-card">
+                        <div class="role-icon">🛡️</div>
+                        <h3>Team Lead (Cyber Sec/Ethical Hacking)</h3>
+                        <p class="role-period">Dec 2024 - Present</p>
+                        <p>Spearheading ethical hacking teams and tackling real-world security challenges with innovative approaches.</p>
+                    </div>
+                    <div class="role-card">
+                        <div class="role-icon">⚛️</div>
+                        <h3>Team Lead (Cyber Quantum Project)</h3>
+                        <p class="role-period">Jan 2025 - Present</p>
+                        <p>Leading cutting-edge AI-quantum integration projects and overseeing advanced technology development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section projects-section" id="projects-section" style="display: none;">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>🧬 Evolution Research Project</h3>
+                            <div class="project-badges">
+                                <span class="badge">Evolution</span>
+                                <span class="badge">Research</span>
+                                <span class="badge">AI</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Researching the evolution of everything - from biological systems to technological 
+                            advancement. Developing AI models to predict evolutionary patterns and accelerate 
+                            evolutionary processes in digital environments.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Research</a>
+                            <a href="#" class="project-link">Papers</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>🚀 Quantum Teleportation System</h3>
+                            <div class="project-badges">
+                                <span class="badge">Teleportation</span>
+                                <span class="badge">Quantum</span>
+                                <span class="badge">Physics</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Developing advanced quantum teleportation protocols and experimental setups. 
+                            Working on quantum entanglement-based information transfer systems and 
+                            theoretical frameworks for macroscopic teleportation.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Research</a>
+                            <a href="#" class="project-link">Experiments</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>⚛️ Advanced Quantum Fields Research</h3>
+                            <div class="project-badges">
+                                <span class="badge">Quantum Fields</span>
+                                <span class="badge">Theoretical</span>
+                                <span class="badge">Physics</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Investigating advanced quantum field theories and their applications. 
+                            Researching quantum field manipulation, quantum computing applications, 
+                            and developing new quantum algorithms for complex problem solving.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Research</a>
+                            <a href="#" class="project-link">Algorithms</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>🛡️ Cyber Quantum Nexus Project</h3>
+                            <div class="project-badges">
+                                <span class="badge">AI</span>
+                                <span class="badge">Quantum</span>
+                                <span class="badge">Security</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Leading AI-quantum integration initiatives for cybersecurity applications. 
+                            Developing quantum-resistant encryption and AI-powered threat detection 
+                            systems using quantum computing principles.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Arsenal -->
+        <section class="section arsenal-section" id="arsenal-section" style="display: none;">
+            <div class="container">
+                <h2 class="section-title">⚔️ TECHNICAL ARSENAL</h2>
+                <div class="arsenal-grid">
+                    <div class="arsenal-category">
+                        <h3>🔬 Research & Development</h3>
+                        <div class="arsenal-items">
+                            <span class="arsenal-item">Evolutionary Algorithms</span>
+                            <span class="arsenal-item">Quantum Field Theory</span>
+                            <span class="arsenal-item">Teleportation Protocols</span>
+                            <span class="arsenal-item">AI/ML Research</span>
+                            <span class="arsenal-item">Theoretical Physics</span>
+                            <span class="arsenal-item">Quantum Computing</span>
+                        </div>
+                    </div>
+                    <div class="arsenal-category">
+                        <h3>🛡️ Cybersecurity</h3>
+                        <div class="arsenal-items">
+                            <span class="arsenal-item">Ethical Hacking</span>
+                            <span class="arsenal-item">Penetration Testing</span>
+                            <span class="arsenal-item">Vulnerability Assessment</span>
+                            <span class="arsenal-item">Incident Response</span>
+                            <span class="arsenal-item">Security Architecture</span>
+                            <span class="arsenal-item">Threat Intelligence</span>
+                        </div>
+                    </div>
+                    <div class="arsenal-category">
+                        <h3>⚛️ Quantum Technologies</h3>
+                        <div class="arsenal-items">
+                            <span class="arsenal-item">Quantum Algorithms</span>
+                            <span class="arsenal-item">Quantum Cryptography</span>
+                            <span class="arsenal-item">Quantum Entanglement</span>
+                            <span class="arsenal-item">Quantum Simulation</span>
+                            <span class="arsenal-item">Quantum Machine Learning</span>
+                            <span class="arsenal-item">Quantum Networks</span>
+                        </div>
+                    </div>
+                    <div class="arsenal-category">
+                        <h3>🤖 AI & Machine Learning</h3>
+                        <div class="arsenal-items">
+                            <span class="arsenal-item">Deep Learning</span>
+                            <span class="arsenal-item">Neural Networks</span>
+                            <span class="arsenal-item">Computer Vision</span>
+                            <span class="arsenal-item">Natural Language Processing</span>
+                            <span class="arsenal-item">Reinforcement Learning</span>
+                            <span class="arsenal-item">AI Ethics</span>
+                        </div>
+                    </div>
+                    <div class="arsenal-category">
+                        <h3>🌐 Development & Tools</h3>
+                        <div class="arsenal-items">
+                            <span class="arsenal-item">Python</span>
+                            <span class="arsenal-item">JavaScript</span>
+                            <span class="arsenal-item">C++</span>
+                            <span class="arsenal-item">Linux/Unix</span>
+                            <span class="arsenal-item">Docker</span>
+                            <span class="arsenal-item">Git</span>
+                        </div>
+                    </div>
+                    <div class="arsenal-category">
+                        <h3>🔧 Specialized Tools</h3>
+                        <div class="arsenal-items">
+                            <span class="arsenal-item">Wireshark</span>
+                            <span class="arsenal-item">Metasploit</span>
+                            <span class="arsenal-item">Nmap</span>
+                            <span class="arsenal-item">Burp Suite</span>
+                            <span class="arsenal-item">Qiskit</span>
+                            <span class="arsenal-item">TensorFlow</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTF Challenge Section -->
+        <section class="section ctf-challenge-section" id="ctf-challenge-section" style="display: none;">
+            <div class="container">
+                <h2 class="section-title">🏆 CTF CHALLENGE ZONE</h2>
+                <div class="ctf-warning">
+                    <div class="warning-text">⚠️ ADVANCED CAPTURE THE FLAG CHALLENGES</div>
+                    <div class="warning-text">🔒 ACCESS RESTRICTED - SOLVE TO UNLOCK</div>
+                    <div class="warning-text">🎯 BOTH SINGLE PLAYER & GROUP MODES AVAILABLE</div>
+                </div>
+                
+                <div class="ctf-modes">
+                    <div class="ctf-mode-card" id="test-mode" style="background: linear-gradient(135deg, rgba(255, 0, 255, 0.2), rgba(0, 255, 65, 0.2)); border: 2px solid #ff00ff;">
+                        <h3>🧪 TEST QUANTUM CTF</h3>
+                        <p>Direct access to quantum-only challenges</p>
+                        <button class="ctf-mode-btn" onclick="testQuantumCTF()" style="background: linear-gradient(45deg, #ff00ff, #00ff41);">TEST QUANTUM</button>
+                    </div>
+                </div>
+                
+                <div class="ctf-challenges" id="ctf-challenges" style="display: none;">
+                    <!-- CTF challenges will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Security Breach Challenge -->
+        <section class="section security-challenge-section" id="security-challenge-section">
+            <div class="container">
+                <h2 class="section-title">🛡️ SECURITY BREACH SIMULATION</h2>
+                <div class="security-container">
+                    <div class="security-warning">
+                        <p class="warning-text">⚠️ WARNING: Advanced security protocols detected.</p>
+                        <p class="warning-text">🚨 All access attempts are being monitored and logged.</p>
+                    </div>
+                    
+                    <!-- Stage 1: Source Code Analysis -->
+                    <div class="challenge-stage" id="stage-1">
+                        <h3>🔍 STAGE 1: Source Code Analysis</h3>
+                        <p class="stage-description">Locate the hidden key within the page source.</p>
+                        <div class="stage-hint">
+                            <p class="hint-text">💡 Inspect the HTML structure for hidden elements...</p>
+                        </div>
+                        <div class="stage-input">
+                            <input type="text" id="stage1-answer" placeholder="Enter the hidden key..." maxlength="50">
+                            <button id="stage1-submit">🔓 SUBMIT KEY</button>
+                        </div>
+                        <div id="stage1-result" class="stage-result"></div>
+                    </div>
+                    
+                    <!-- Stage 2: JavaScript Analysis -->
+                    <div class="challenge-stage" id="stage-2" style="display: none;">
+                        <h3>⚡ STAGE 2: JavaScript Analysis</h3>
+                        <p class="stage-description">Reverse engineer the obfuscated JavaScript code.</p>
+                        <div class="stage-hint">
+                            <p class="hint-text">💡 Analyze the browser console and decode the obfuscation...</p>
+                        </div>
+                        <div class="stage-input">
+                            <input type="text" id="stage2-answer" placeholder="Enter the decrypted password..." maxlength="50">
+                            <button id="stage2-submit">🔓 SUBMIT PASSWORD</button>
+                        </div>
+                        <div id="stage2-result" class="stage-result"></div>
+                    </div>
+                    
+                    <!-- Stage 3: Network Interception -->
+                    <div class="challenge-stage" id="stage-3" style="display: none;">
+                        <h3>🌐 STAGE 3: Network Interception</h3>
+                        <p class="stage-description">Intercept and decode the network communication.</p>
+                        <div class="stage-hint">
+                            <p class="hint-text">💡 Monitor network traffic and analyze the intercepted data...</p>
+                        </div>
+                        <div class="stage-input">
+                            <input type="text" id="stage3-answer" placeholder="Enter the decoded token..." maxlength="50">
+                            <button id="stage3-submit">🔓 SUBMIT TOKEN</button>
+                        </div>
+                        <div id="stage3-result" class="stage-result"></div>
+                    </div>
+                    
+                    <!-- Stage 4: Final Bypass -->
+                    <div class="challenge-stage" id="stage-4" style="display: none;">
+                        <h3>🎯 STAGE 4: Final Security Bypass</h3>
+                        <p class="stage-description">Complete the final cryptographic challenge.</p>
+                        <div class="stage-hint">
+                            <p class="hint-text">💡 Apply advanced cryptographic techniques...</p>
+                        </div>
+                        <div class="stage-input">
+                            <input type="text" id="stage4-answer" placeholder="Enter the final key..." maxlength="50">
+                            <button id="stage4-submit">🔓 UNLOCK PROFILE</button>
+                        </div>
+                        <div id="stage4-result" class="stage-result"></div>
+                    </div>
+                    
+                    <div class="security-reset">
+                        <button id="reset-security-challenge" class="reset-btn">🔄 Reset Challenge</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Showcase -->
+        <section class="section skills-section" id="skills-section" style="display: none;">
+            <div class="container">
+                <h2 class="section-title">Technical Arsenal</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Cybersecurity</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Ethical Hacking</span>
+                            <span class="skill-tag">Penetration Testing</span>
+                            <span class="skill-tag">Vulnerability Assessment</span>
+                            <span class="skill-tag">Security Auditing</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Artificial Intelligence</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Neural Networks</span>
+                            <span class="skill-tag">AI Integration</span>
+                            <span class="skill-tag">Automation</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>IoT & Emerging Tech</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">IoT Development</span>
+                            <span class="skill-tag">Quantum Computing</span>
+                            <span class="skill-tag">Blockchain</span>
+                            <span class="skill-tag">Edge Computing</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Leadership</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Team Leadership</span>
+                            <span class="skill-tag">Project Management</span>
+                            <span class="skill-tag">Problem Solving</span>
+                            <span class="skill-tag">Collaboration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Agent Section -->
+        <section class="section ai-agent-section" id="ai-agent-section" style="display: none;">
+            <div class="container">
+                <h2 class="section-title">🤖 AI Agent Interface</h2>
+                <div class="ai-agent-container">
+                    <div class="ai-agent-header">
+                        <div class="ai-agent-avatar">
+                            <div class="ai-avatar-ring"></div>
+                            <div class="ai-avatar-core">
+                                <img src="assets/image.jpg" alt="Scorpion AI" class="ai-avatar-image">
+                            </div>
+                            <div class="ai-avatar-scan"></div>
+                        </div>
+                        <div class="ai-agent-info">
+                            <div class="ai-logo-section">
+                                <div class="ai-logo-container">
+                                    <div class="ai-logo-ring"></div>
+                                    <div class="ai-logo-core">
+                                        <span class="ai-logo-text">AI</span>
+                                    </div>
+                                    <div class="ai-logo-scan"></div>
+                                </div>
+                            </div>
+                            <h3>SCORPION AI ASSISTANT</h3>
+                            <p>Advanced AI agent specialized in cybersecurity, quantum computing, and digital arts</p>
+                            <div class="ai-status">
+                                <span class="status-indicator online"></span>
+                                <span class="status-text">ONLINE & READY</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="ai-chat-container">
+                        <div class="ai-chat-messages" id="ai-chat-messages">
+                            <div class="ai-message">
+                                <div class="ai-message-avatar">🤖</div>
+                                <div class="ai-message-content">
+                                    <p>Greetings, digital wanderer! I am the Scorpion AI Assistant, your guide through the realms of cybersecurity, quantum computing, and digital arts. How may I assist you today?</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="ai-chat-input-container">
+                            <div class="ai-input-wrapper">
+                                <input type="text" id="ai-chat-input" placeholder="Ask me anything about cybersecurity, quantum computing, or digital arts..." autocomplete="off">
+                                <button id="ai-send-btn" class="ai-send-btn">
+                                    <span class="send-icon">🚀</span>
+                                </button>
+                            </div>
+                            <div class="ai-quick-actions">
+                                <button class="ai-quick-btn" onclick="askAI('cybersecurity')">🔒 Cybersecurity</button>
+                                <button class="ai-quick-btn" onclick="askAI('quantum')">⚛️ Quantum Computing</button>
+                                <button class="ai-quick-btn" onclick="askAI('ai')">🤖 AI & Machine Learning</button>
+                                <button class="ai-quick-btn" onclick="askAI('hacking')">💻 Ethical Hacking</button>
+                                <button class="ai-quick-btn" onclick="askAI('projects')">🚀 Projects</button>
+                                <button class="ai-quick-btn" onclick="askAI('help')">❓ Help</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cybersecurity Platforms & Conferences -->
+        <section class="section cybersecurity-platforms-section" id="cybersecurity-platforms-section" style="display: none;">
+            <div class="container">
+                <h2 class="section-title">🌐 CYBERSECURITY ECOSYSTEM</h2>
+                <p class="section-subtitle">Connect with the world's leading cybersecurity platforms, conferences, and communities</p>
+                <div class="ecosystem-status">
+                    <div class="status-indicator">
+                        <span class="status-dot active"></span>
+                        <span class="status-text">LIVE & EXPANDING</span>
+                    </div>
+                    <div class="update-badge">
+                        <span class="badge-icon">🚀</span>
+                        <span class="badge-text">COMING SOON: Advanced Integration</span>
+                    </div>
+                </div>
+                
+                <div class="platforms-grid">
+                    <!-- Major Conferences -->
+                    <div class="platform-category">
+                        <h3 class="category-title">🏆 MAJOR CONFERENCES</h3>
+                        <div class="platforms-list">
+                            <a href="https://defcon.org" target="_blank" class="platform-card">
+                                <div class="platform-logo">
+                                    <img src="https://defcon.org/images/defcon-logo.png" alt="DEF CON" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjMDAwMDAwIi8+Cjx0ZXh0IHg9IjMyIiB5PSIzMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiBmaWxsPSIjMDBmZjQxIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+REVGPC90ZXh0Pgo8dGV4dCB4PSIzMiIgeT0iNDQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSI4IiBmaWxsPSIjMDBmZjQxIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+Q09OPC90ZXh0Pgo8L3N2Zz4K'">
+                                </div>
+                                <div class="platform-info">
+                                    <h4>DEF CON</h4>
+                                    <p>World's largest hacker convention</p>
+                                    <span class="platform-type">Conference</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://blackhat.com" target="_blank" class="platform-card">
+                                <div class="platform-logo">
+                                    <img src="https://www.blackhat.com/images/page-graphics/black-hat-logo.svg" alt="Black Hat" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjMDAwMDAwIi8+Cjx0ZXh0IHg9IjMyIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+QmxhY2s8L3RleHQ+Cjx0ZXh0IHg9IjMyIiB5PSIzNiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+SGF0PC90ZXh0Pgo8L3N2Zz4K'">
+                                </div>
+                                <div class="platform-info">
+                                    <h4>Black Hat</h4>
+                                    <p>Premier information security event</p>
+                                    <span class="platform-type">Conference</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://www.rsaconference.com" target="_blank" class="platform-card">
+                                <div class="platform-logo">
+                                    <img src="https://www.rsaconference.com/~/media/Images/Logos/RSA-Conference-Logo.svg" alt="RSA Conference" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjMDAwMDAwIi8+Cjx0ZXh0IHg9IjMyIiB5PSIzMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+UlNBPC90ZXh0Pgo8L3N2Zz4K'">
+                                </div>
+                                <div class="platform-info">
+                                    <h4>RSA Conference</h4>
+                                    <p>World's leading cybersecurity conference</p>
+                                    <span class="platform-type">Conference</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Bug Bounty Platforms -->
+                    <div class="platform-category">
+                        <h3 class="category-title">🐛 BUG BOUNTY PLATFORMS</h3>
+                        <div class="platforms-list">
+                            <a href="https://hackerone.com" target="_blank" class="platform-card">
+                                <div class="platform-logo">
+                                    <img src="https://www.hackerone.com/sites/default/files/2019-05/hackerone-logo.svg" alt="HackerOne" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjMDAwMDAwIi8+Cjx0ZXh0IHg9IjMyIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+SGFja2VyPC90ZXh0Pgo8dGV4dCB4PSIzMiIgeT0iMzYiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk9uZTwvdGV4dD4KPC9zdmc+Cg=='">
+                                </div>
+                                <div class="platform-info">
+                                    <h4>HackerOne</h4>
+                                    <p>World's largest bug bounty platform</p>
+                                    <span class="platform-type">Bug Bounty</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://bugcrowd.com" target="_blank" class="platform-card">
+                                <div class="platform-logo">
+                                    <img src="https://www.bugcrowd.com/wp-content/uploads/2019/01/bugcrowd-logo.svg" alt="Bugcrowd" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjMDAwMDAwIi8+Cjx0ZXh0IHg9IjMyIiB5PSIzMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+QnVnY3Jvd2Q8L3RleHQ+Cjwvc3ZnPgo='">
+                                </div>
+                                <div class="platform-info">
+                                    <h4>Bugcrowd</h4>
+                                    <p>Leading crowdsourced security platform</p>
+                                    <span class="platform-type">Bug Bounty</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://intigriti.com" target="_blank" class="platform-card">
+                                <div class="platform-logo">
+                                    <img src="https://www.intigriti.com/wp-content/uploads/2019/01/intigriti-logo.svg" alt="Intigriti" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjMDAwMDAwIi8+Cjx0ZXh0IHg9IjMyIiB5PSIzMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+SW50aWdyaXRpPC90ZXh0Pgo8L3N2Zz4K'">
+                                </div>
+                                <div class="platform-info">
+                                    <h4>Intigriti</h4>
+                                    <p>European bug bounty platform</p>
+                                    <span class="platform-type">Bug Bounty</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- CTF Platforms -->
+                    <div class="platform-category">
+                        <h3 class="category-title">🏁 CTF PLATFORMS</h3>
+                        <div class="platforms-list">
+                            <a href="https://ctftime.org" target="_blank" class="platform-card">
+                                <div class="platform-logo">
+                                    <img src="https://ctftime.org/static/images/logo.png" alt="CTFtime" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjMDAwMDAwIi8+Cjx0ZXh0IHg9IjMyIiB5PSIzMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+Q1RGVGltZTwvdGV4dD4KPC9zdmc+Cg=='">
+                                </div>
+                                <div class="platform-info">
+                                    <h4>CTFtime</h4>
+                                    <p>Capture The Flag competition tracker</p>
+                                    <span class="platform-type">CTF</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://picoctf.org" target="_blank" class="platform-card">
+                                <div class="platform-logo">
+                                    <img src="https://picoctf.org/static/images/picoctf-logo.png" alt="picoCTF" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjMDAwMDAwIi8+Cjx0ZXh0IHg9IjMyIiB5PSIzMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+cGljb0NURjwvdGV4dD4KPC9zdmc+Cg=='">
+                                </div>
+                                <div class="platform-info">
+                                    <h4>picoCTF</h4>
+                                    <p>Educational cybersecurity competition</p>
+                                    <span class="platform-type">CTF</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://overthewire.org" target="_blank" class="platform-card">
+                                <div class="platform-logo">
+                                    <img src="https://overthewire.org/images/logo.png" alt="OverTheWire" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjMDAwMDAwIi8+Cjx0ZXh0IHg9IjMyIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjgiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5PdmVyPC90ZXh0Pgo8dGV4dCB4PSIzMiIgeT0iMzQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSI4IiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+VGhlPC90ZXh0Pgo8dGV4dCB4PSIzMiIgeT0iNDQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSI4IiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+V2lyZTwvdGV4dD4KPC9zdmc+Cg=='">
+                                </div>
+                                <div class="platform-info">
+                                    <h4>OverTheWire</h4>
+                                    <p>Wargames for learning security</p>
+                                    <span class="platform-type">Wargames</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Learning Platforms -->
+                    <div class="platform-category">
+                        <h3 class="category-title">📚 LEARNING PLATFORMS</h3>
+                        <div class="platforms-list">
+                            <a href="https://tryhackme.com" target="_blank" class="platform-card">
+                                <div class="platform-logo">
+                                    <img src="https://tryhackme.com/img/THMlogo.png" alt="TryHackMe" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjMDAwMDAwIi8+Cjx0ZXh0IHg9IjMyIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjgiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5Ucnk8L3RleHQ+Cjx0ZXh0IHg9IjMyIiB5PSIzNCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjgiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5IYWNrPC90ZXh0Pgo8dGV4dCB4PSIzMiIgeT0iNDQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSI4IiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+TWU8L3RleHQ+Cjwvc3ZnPgo='">
+                                </div>
+                                <div class="platform-info">
+                                    <h4>TryHackMe</h4>
+                                    <p>Learn cybersecurity through hands-on labs</p>
+                                    <span class="platform-type">Learning</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://www.hackthebox.com" target="_blank" class="platform-card">
+                                <div class="platform-logo">
+                                    <img src="https://www.hackthebox.com/storage/logo_htb.png" alt="HackTheBox" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjMDAwMDAwIi8+Cjx0ZXh0IHg9IjMyIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjgiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5IYWNrPC90ZXh0Pgo8dGV4dCB4PSIzMiIgeT0iMzQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSI4IiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+VGhlPC90ZXh0Pgo8dGV4dCB4PSIzMiIgeT0iNDQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSI4IiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+Qm94PC90ZXh0Pgo8L3N2Zz4K'">
+                                </div>
+                                <div class="platform-info">
+                                    <h4>HackTheBox</h4>
+                                    <p>Advanced penetration testing labs</p>
+                                    <span class="platform-type">Learning</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://www.vulnhub.com" target="_blank" class="platform-card">
+                                <div class="platform-logo">
+                                    <img src="https://www.vulnhub.com/images/logo.png" alt="VulnHub" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjMDAwMDAwIi8+Cjx0ZXh0IHg9IjMyIiB5PSIzMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+VnVsbkh1YjwvdGV4dD4KPC9zdmc+Cg=='">
+                                </div>
+                                <div class="platform-info">
+                                    <h4>VulnHub</h4>
+                                    <p>Vulnerable machines for practice</p>
+                                    <span class="platform-type">Learning</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Security Organizations -->
+                    <div class="platform-category">
+                        <h3 class="category-title">🛡️ SECURITY ORGANIZATIONS</h3>
+                        <div class="platforms-list">
+                            <a href="https://www.owasp.org" target="_blank" class="platform-card">
+                                <div class="platform-logo">
+                                    <img src="https://owasp.org/assets/images/logo.png" alt="OWASP" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjMDAwMDAwIi8+Cjx0ZXh0IHg9IjMyIiB5PSIzMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+T1dBU1A8L3RleHQ+Cjwvc3ZnPgo='">
+                                </div>
+                                <div class="platform-info">
+                                    <h4>OWASP</h4>
+                                    <p>Open Web Application Security Project</p>
+                                    <span class="platform-type">Organization</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://www.sans.org" target="_blank" class="platform-card">
+                                <div class="platform-logo">
+                                    <img src="https://www.sans.org/images/sans-logo.png" alt="SANS" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjMDAwMDAwIi8+Cjx0ZXh0IHg9IjMyIiB5PSIzMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+U0FOUzwvdGV4dD4KPC9zdmc+Cg=='">
+                                </div>
+                                <div class="platform-info">
+                                    <h4>SANS Institute</h4>
+                                    <p>Information security training & certification</p>
+                                    <span class="platform-type">Training</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://www.isc2.org" target="_blank" class="platform-card">
+                                <div class="platform-logo">
+                                    <img src="https://www.isc2.org/images/isc2-logo.png" alt="ISC²" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjMDAwMDAwIi8+Cjx0ZXh0IHg9IjMyIiB5PSIzMiIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+SVNDwqI8L3RleHQ+Cjwvc3ZnPgo='">
+                                </div>
+                                <div class="platform-info">
+                                    <h4>ISC²</h4>
+                                    <p>International Information System Security Certification Consortium</p>
+                                    <span class="platform-type">Certification</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Future Expansion Notice -->
+                <div class="future-expansion">
+                    <div class="expansion-header">
+                        <h3>🔮 FUTURE EXPANSION ROADMAP</h3>
+                        <div class="expansion-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 25%"></div>
+                            </div>
+                            <span class="progress-text">Phase 1 of 4 Complete</span>
+                        </div>
+                    </div>
+                    
+                    <div class="expansion-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">🤖</div>
+                            <div class="feature-content">
+                                <h4>AI-Powered Platform Integration</h4>
+                                <p>Real-time API connections with live data feeds, automated vulnerability tracking, and intelligent threat analysis</p>
+                                <span class="feature-status">In Development</span>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">🌍</div>
+                            <div class="feature-content">
+                                <h4>Global Security Network</h4>
+                                <p>Direct integration with 100+ top-tier security platforms, real-time CTF leaderboards, and live conference streams</p>
+                                <span class="feature-status">Planning Phase</span>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">⚡</div>
+                            <div class="feature-content">
+                                <h4>Advanced Analytics Dashboard</h4>
+                                <p>Comprehensive security metrics, threat intelligence feeds, and personalized learning recommendations</p>
+                                <span class="feature-status">Coming Soon</span>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">🔗</div>
+                            <div class="feature-content">
+                                <h4>Elite Community Hub</h4>
+                                <p>Direct access to cybersecurity professionals, mentorship programs, and exclusive industry insights</p>
+                                <span class="feature-status">Future Release</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="expansion-cta">
+                        <p>This ecosystem is continuously evolving. Stay tuned for advanced integrations, real-time data feeds, and exclusive access to the cybersecurity elite.</p>
+                        <div class="cta-buttons">
+                            <button class="cta-btn primary" onclick="subscribeToUpdates()">🔔 Subscribe to Updates</button>
+                            <button class="cta-btn secondary" onclick="viewRoadmap()">🗺️ View Full Roadmap</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <p>&copy; 2024 Scorpion Family. All systems secured. | <span class="hacker-text">Access granted to shadow dwellers only.</span></p>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">GitHub</a>
+                        <a href="#" class="footer-link">LinkedIn</a>
+                        <a href="#" class="footer-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Hidden Console for Easter Eggs -->
+    <div id="hidden-console" class="hidden-console">
+        <div class="console-content">
+            <p>Welcome to the hidden console. Type 'help' for available commands.</p>
+            <div id="console-output"></div>
+            <div class="console-input-line">
+                <span class="console-prompt">></span>
+                <input type="text" id="console-input" placeholder="Enter command..." autocomplete="off">
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden Stage 1 Key (base64 encoded) -->
+    <div style="display: none;" id="hidden-key" data-key="TmlyYWphbiBUaGFwYSBTZWN1cml0eSBLZXk="></div>
+    
+    <!-- Hidden Stage 2 Data (obfuscated) -->
+    <script>
+        // Obfuscated JavaScript - Stage 2 challenge
+        var _0x4f2a=['btoa','atob','Nirajan','Thapa','Security','Key','2024'];
+        var _0x2e1b=function(_0x4f2a){return _0x4f2a[0];};
+        var _0x1c3d=function(_0x4f2a){return _0x4f2a[1];};
+        var _0x5f4e=function(_0x4f2a){return _0x4f2a[2];};
+        var _0x3d2f=function(_0x4f2a){return _0x4f2a[3];};
+        var _0x6e1a=function(_0x4f2a){return _0x4f2a[4];};
+        var _0x7f3b=function(_0x4f2a){return _0x4f2a[5];};
+        var _0x8e4c=function(_0x4f2a){return _0x4f2a[6];};
+        
+        // Encrypted password: "NirajanThapa2024"
+        window._hiddenPassword = btoa(_0x5f4e(_0x4f2a) + _0x3d2f(_0x4f2a) + _0x8e4c(_0x4f2a));
+        
+        // Network access token
+        window._networkToken = btoa("SECURITY_ACCESS_TOKEN_" + _0x8e4c(_0x4f2a));
+        
+        // Final challenge key (hex encoded)
+        window._finalKey = "0x4e6972616a616e"; // Hex: "Nirajan"
+    </script>
+    
+    <script src="js/script.js"></script>
+    
+    <!-- Initialize everything after DOM is loaded -->
+    <script>
+        // Ensure everything is loaded and working
+        window.addEventListener('load', () => {
+            console.log('🦂 Scorpion Family Portfolio - System Initialization');
+            
+            // Check if main components are loaded
+            if (typeof window.portfolioApp !== 'undefined') {
+                console.log('✅ PortfolioApp loaded successfully');
+            } else {
+                console.error('❌ PortfolioApp failed to load');
+            }
+            
+            if (typeof window.securityChallenge !== 'undefined') {
+                console.log('✅ SecurityChallenge loaded successfully');
+            } else {
+                console.error('❌ SecurityChallenge failed to load');
+            }
+            
+            if (typeof QRCode !== 'undefined') {
+                console.log('✅ QRCode library loaded successfully');
+            } else {
+                console.error('❌ QRCode library failed to load');
+            }
+            
+            // Test quantum puzzle generation
+            try {
+                if (window.securityChallenge) {
+                    const puzzle = window.securityChallenge.generateQuantumPuzzle();
+                    console.log('✅ Quantum puzzle system working:', puzzle.sequence);
+                }
+            } catch (error) {
+                console.error('❌ Quantum puzzle test failed:', error);
+            }
+            
+            console.log('🎯 System initialization complete');
+        });
+    </script>
+</body>
+</html> 
